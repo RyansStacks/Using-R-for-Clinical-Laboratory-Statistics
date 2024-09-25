@@ -1,12 +1,8 @@
----
-title: "Clinical Laboratory Stastics with R"
-author: "Ryan Breen"
-output:
-  html_document: default
-  pdf_document: default
----
 
-![stock](stock.png)
+# Clinical Laboratory Stastics with R
+
+
+![stock](img/stock.png)
 
 ```{r include=FALSE, warning=FALSE}
 #install.packages("tidyverse")
