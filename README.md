@@ -209,7 +209,7 @@ Classically, a p-value < 0.05 assuming a 5% alpha (False Positive rate) is indic
 Peer group comparisons provide a more robust method of comparing accuracy and precision using the concept of __Law of Averages__ where we are able to approach closely to the Parent mean and standard deviation by obtaining data from all laboratories that utilize the same testing platform. Here, the standard deviations, coefficient of variation, and group means are compared against the analyzer mean and standard deviation to gauge how performance measures to the Peer Group. 
 
 The diagram below highlights common measures used to assess Peer Group statistics:
-![stock](peer.png)
+![stock](img/peer.png)
 Below, the Peer Group values as they stack up against our laboratory values:
 ```{r warning=FALSE}
 Group_K_Mean = 2.4
@@ -346,7 +346,7 @@ tab["True","Pos"] / (tab["True","Pos"]  + ((tab["False","Pos"] + tab["False","Ne
 ### Classification Modelling
 The results from the confusion matrix may be converted to a binary format that is helpful in creating classification models that deal precisely with modelling a classifier such as a pregnancy test. The classification scheme or target in this particular case would be if a patient is "pregnant" represented by a 1 or "not-pregnant" represented by a 0. The results of the POC pregnancy test may be stored as __predicted values__ and compared against if a patient was truly pregnant stored as the __actual values__. 
 
-![binary](binary.png)
+![binary](img/binary.png)
 
 ### Creating a Logistic Regression (binomial) Model
 ```{r warning=FALSE}
