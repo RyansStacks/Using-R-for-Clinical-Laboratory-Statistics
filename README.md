@@ -1,5 +1,5 @@
 
-# Clinical Laboratory Stastics with R
+# Clinical Laboratory Statistics with R
 
 
 ![stock](img/stock.png)
